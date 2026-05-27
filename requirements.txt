@@ -1,0 +1,10 @@
+# Advanced Calculator Requirements
+# No external dependencies needed!
+# Tkinter is included with Python on most systems.
+
+# If you need to install Tkinter on Linux:
+# Ubuntu/Debian: sudo apt-get install python3-tk
+# Fedora: sudo dnf install python3-tkinter
+# Arch: sudo pacman -S tk
+
+Python>=3.6
