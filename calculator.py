@@ -40,7 +40,11 @@ def calculator():
     print("-" * 40)
 
     while True:
-        choice = input("\nEnter choice (1/2/3/4/5): ").strip()
+        try:
+            choice = input("\nEnter choice (1/2/3/4/5): ").strip()
+        except (EOFError, KeyboardInterrupt):
+            print("\nThank you for using Simple Calculator! Goodbye!")
+            break
 
         if choice == "5":
             print("\nThank you for using Simple Calculator! Goodbye!")
@@ -61,6 +65,9 @@ def calculator():
                     print(f"\n{num1} ÷ {num2} = {divide(num1, num2)}\n")
             except ValueError:
                 print("Invalid input! Please enter numeric values.\n")
+            except (EOFError, KeyboardInterrupt):
+                print("\nThank you for using Simple Calculator! Goodbye!")
+                break
         else:
             print("Invalid choice! Please select 1, 2, 3, 4, or 5.\n")
 

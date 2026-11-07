@@ -1,0 +1,67 @@
+name: Feature request
+description: Suggest an improvement for the calculator
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Please explain the problem before the
+        proposed solution so the use case is clear.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the current limitation or user need.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What would you like the calculator to do?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Workarounds or other approaches you have tried.
+    validations:
+      required: false
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Who benefits?
+      description: Explain the expected benefit and how you would use it.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Area
+      options:
+        - Standard calculator
+        - Scientific functions
+        - Memory or history
+        - Keyboard or accessibility
+        - Command-line mode
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and did not find a duplicate.
+          required: true
+        - label: This feature can be implemented without adding a required runtime dependency.
+          required: false
