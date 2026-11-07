@@ -1,10 +1,12 @@
 # Changelog
 
 All notable changes to this project are documented here. The format is based on
-[Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The project has no
-tagged release yet, so the entries below are unreleased.
+[Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
+follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
+
+## [0.1.0] - 2026-11-07
 
 ### Added
 
@@ -53,3 +55,6 @@ tagged release yet, so the entries below are unreleased.
 - `FEATURES.md` (duplicated the README and contained unverified claims).
 - `MAKE_PUBLIC.md` (the repository is already public; the file included an
   insecure token example).
+
+[Unreleased]: https://github.com/ShahabAhmed01/simple-calculator/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/ShahabAhmed01/simple-calculator/releases/tag/v0.1.0

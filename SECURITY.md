@@ -2,9 +2,13 @@
 
 ## Supported versions
 
-This project does not have a tagged release yet. Security fixes are applied to
-the `main` branch. Once releases exist, this section will list the supported
-versions.
+The latest tagged release is supported with security fixes. Fixes are applied
+to `main` and included in the next release.
+
+| Version | Supported |
+| --- | --- |
+| 0.1.x | Yes |
+| < 0.1 | No |
 
 ## Reporting a vulnerability
 

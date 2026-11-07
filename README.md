@@ -4,6 +4,7 @@ A Python calculator with a Tkinter desktop GUI, scientific functions, memory,
 history, and a command-line mode.
 
 [![CI](https://github.com/ShahabAhmed01/simple-calculator/actions/workflows/ci.yml/badge.svg)](https://github.com/ShahabAhmed01/simple-calculator/actions/workflows/ci.yml)
+[![Latest release](https://img.shields.io/github/v/release/ShahabAhmed01/simple-calculator?sort=semver)](https://github.com/ShahabAhmed01/simple-calculator/releases)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![MIT License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Platforms](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)](#requirements)
