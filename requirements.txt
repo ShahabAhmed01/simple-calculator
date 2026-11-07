@@ -1,10 +1,7 @@
-# Advanced Calculator Requirements
-# No external dependencies needed!
-# Tkinter is included with Python on most systems.
-
-# If you need to install Tkinter on Linux:
+# Simple Calculator has no third-party runtime dependencies.
+# Tkinter is part of the Python standard library and ships with the
+# official python.org installers. On Linux you may need a system package:
+#
 # Ubuntu/Debian: sudo apt-get install python3-tk
-# Fedora: sudo dnf install python3-tkinter
-# Arch: sudo pacman -S tk
-
-Python>=3.6
+# Fedora:        sudo dnf install python3-tkinter
+# Arch Linux:    sudo pacman -S tk
